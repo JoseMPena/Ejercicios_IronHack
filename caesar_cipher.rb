@@ -39,4 +39,4 @@ def solve_cipher(input, index)
 	puts solved
 end
 
-solve_cipher("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", -1)
+solve_cipher("Pb uhdo qdph lv Grqdog Gxfn", -3)
