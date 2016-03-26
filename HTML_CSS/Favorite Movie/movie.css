@@ -1,0 +1,123 @@
+/* Styles for the whole body*/
+body{
+    font: 16px Helvetica, Sans-Serif; 
+    line-height: 24px; 
+    background-color: #F5F1E8;
+    background: url(img/coolbg.jpg) top center; 
+    background-size: auto auto;
+}
+h1{
+    font-family: Georgia, Serif;
+    font-style: italic; 
+    font-weight: lighter;
+    margin: 30px 0 16px 20px;
+    padding: 0 0 16px 0;
+    font-size: 42px; 
+    letter-spacing: -2px; 
+    border-bottom: 1px solid #999;
+            }
+#page-wrap { 
+    width: 800px; 
+    margin: 40px auto 60px; 
+}
+
+section {
+    margin: 0 0 40px 0;
+}
+
+p{ 
+    margin: 0 0 0 0; 
+    font-family: Georgia, Serif; 
+    font-style: italic; 
+    color: #666;
+}
+
+
+ol { 
+    margin: 0 0 32px 17px;
+    font-family: Georgia, Serif; 
+    font-style: italic; color: #666;
+}
+
+ul{
+    list-style: square;
+    list-style-position: outside;
+    font-family: Georgia, Serif; 
+    font-style: italic; 
+    color: #666;
+    float: left;
+    margin: 0 30px 0 0;
+    padding: 0 0 0 20px;
+}
+
+/* Styles for the movie picture section*/
+#moviepic { 
+    float: left; 
+    height: 400px;
+    width: 280px;
+    display: block;
+    
+}
+
+/* Styles for the Movie description section*/
+.description { 
+    margin-left: 350px;  
+    vertical-align: middle;
+}
+.description p { 
+    font-family: Georgia, Serif; 
+    font-style: italic; 
+    color: #666; 
+}
+
+/* Styles for the Aside section*/
+#related{
+    margin: 0px 0 0 -25px;
+    float: right;
+}
+
+#related li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#starring{
+    margin-right: 60px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #666;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: purple;
+}
+
+.boxaside
+{
+    //background-color: #F5F1E8;
+    background: url(img/coolbg.jpg) top center;
+    border-top:1px solid #666;
+    border-bottom:1px solid #666;
+    padding:10px 20px;
+    height: 120px
+}
+
+/*Styles for the Footer*/
+
+.boxfooter
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    background:#eff4f6;
+    border-top:1px solid #fff;
+    padding:22px 26px;
+    overflow:hidden;
+    height:52px;
+    text-align: center;
+}

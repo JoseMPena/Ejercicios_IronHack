@@ -1,0 +1,266 @@
+/*general body styles*/
+html, body {
+    margin: 0;
+    font-size: small;
+}
+
+body{
+    background: #fff;
+    color: #222;
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+div {
+	display: inline-block;
+}
+
+a:link{
+	text-decoration: none;
+	color: #666;
+}
+
+a:visited {
+	color: #666;
+}
+
+/*Header*/
+header{
+	display: block;
+	color: #222;
+	z-index: -295;
+	height: 30px;
+	width: 100%;
+}
+
+header section{
+	float: right;
+	margin: 15px 0 15px 0;
+	padding-left: 30px;
+}
+
+.google_links div{
+	color: #000;
+	text-decoration: none;
+	min-width: 60px;
+	overflow: hidden;
+	-webkit-flex: 0 1 main-size;
+    flex: 0 1 main-size;
+    text-overflow: ellipsis;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 13px;
+}
+
+.linkbox{
+	padding-right: 15px;
+	line-height: normal;
+	white-space: nowrap;
+}
+
+.gapps_icon{
+    cursor: default;
+    background-position: -132px -38px;
+    opacity: .55;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: default;
+    text-decoration: none;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+}
+
+.notify{
+	outline: none;
+	border-radius: 2px;
+	padding: 0 0 0 15px;
+    vertical-align: middle;
+}
+
+.notifying{
+	background-color: #db4437;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px;
+    padding: 0 2px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.usercontainer{
+	padding: 0 0 0 15px;
+    vertical-align: middle;
+	display: inline-block;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-flex: 0 1 main-size;
+    flex: 0 1 main-size;
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.userimage{
+    background-image: url(img/photo.jpg);
+    background-size: 32px 32px;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+}
+
+/* Style for elements in body */
+.center{
+	display: block;
+    text-align: -webkit-center;
+}
+
+.main_container{
+	padding-top: 50px;
+	display: block;
+}
+
+.logo{
+	//background-size: 272px 92px;
+    height: 280px;
+    width: 572px;
+    background: url(img/spring.gif) no-repeat;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+#animated{
+	height:233px;
+	width:100%;
+}
+
+.searchbox {
+    width: 638px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    height: 38px;
+    vertical-align: top;
+    line-height: 0;
+    overflow: visible;
+}
+
+.micbox {
+	line-height: 38px;
+    margin-top: -1px;
+    position: static;
+    float: right;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 2px 6px 2px 6px;
+    position: relative;
+}
+
+.microphone{
+	background: url(img/microphone.png) no-repeat -3px 0;
+    background-size: 24px 24px;
+    display: inline-block;
+    height: 23px;
+    width: 17px;
+    vertical-align: middle;
+}
+
+.button{
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.button:hover {
+
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.searchfield {
+	height: 36px;
+    line-height: 27px;
+    background-color: #fff;
+    width: 600px;
+    border: none;
+    background-color: #fff;
+    float: left;
+    padding-left: 6px
+}
+
+/* Footer */
+footer{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+    font-size: 10pt;
+    height: 40px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    width:100%;
+}
+
+#right{
+	margin-right: 30px;
+	float: right;
+}
+
+#left{
+	margin-left: 30px;
+	float: left;
+}
+
+footer span a{
+	display: inline-block;
+	color: #666;
+    padding-left: 27px;
+    font-family: arial,sans-serif;
+    cursor: auto;
+}
