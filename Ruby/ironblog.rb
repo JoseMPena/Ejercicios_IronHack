@@ -39,8 +39,6 @@ class Post
 end
 
 blog1 = Blog.new
-#date1 = Time.new(2016,4,3)
-#date2 = Time.new(2016,4,7)
 post2 = Post.new("Hello World", Time.new(2016,4,3), "Hello World, this is the second post")
 post1 = Post.new("Hola Mundo", Time.new(2016,4,7), "Hola mundo este es el primer post")
 
